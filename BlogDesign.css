@@ -1,0 +1,54 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.img-circle {
+  border: 3px solid white;
+  border-radius: 50%;
+}
+#headder {
+  color: #ffff;
+  width: 120px;
+  height: 40px;
+  background-color: #4a6da7;
+}
+#intro {
+  font-family: NotoSans, Arial, "Arial Unicode MS", sans-serif;
+  font-size: large;
+  color: rgb(17, 17, 17);
+  width: 37px;
+}
+#AboutMe {
+  font-family: NotoSans, Arial, "Arial Unicode MS", sans-serif;
+  font-size: large;
+  color: rgb(17, 17, 17);
+  width: auto;
+}
+.default {
+  width: 50%;
+  border: black 5px solid;
+  border-collapse: separate;
+  margin: 9px;
+  padding: 1px;
+}
+.default th {
+  font-size: large;
+  color: white;
+  background-color: #292929;
+  width: "50%";
+}
+.default tr {
+  font-size: large;
+  color: white;
+  width: "50%";
+  background-color: #4a6da7;
+}
+.default td {
+  width: 50%;
+}
