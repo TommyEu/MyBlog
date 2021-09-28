@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="BlogDesign.css" />
+    <title>My Blog</title>
+ 
+  </head>
+  <body>
+    <header>
+      <h1 id="titulo">My Blog</h1>
+      <img alt="" class="img-circle" src="img/perfil.jpg" width="200" />
+      <p>Tomás Euliarte</p>
+    </header>
+
+    <section class="container">
+      <!--<article id="related">
+        <h5 id="relatedTitle">Related Content</h5>
+        <ul>
+          <li><a href="/related/Juego.html">Juego: Tu peso en otro planeta</a></li>
+        </ul>
+      </article>-->
+      <!-- About Me Section-->
+      <article>
+        <h1><span>About Me.</span></h1>
+        <p id="AboutMe">
+          My name is <strong>Tomás Euliarte</strong>. I live in Cordoba,
+          Argentina. I was born on December 13, 2002. I like programming and
+          really enjoy web development. This page is a project which forms part
+          of my web programming portfolio. I'm improving it while I'm learning
+          HTML and CSS coding. Soon I will start adding some JavaScript. I learn
+          new skills and programming languages ​​in a self-taught way, also
+          through Platzi.com, and with YouTube videos. In addition, I like to
+          play the guitar, walk in the park, walk along the river, go out to 
+          dinner with friends, and do exercises at home.
+        </p>
+      </article>
+
+      <!--My Skills Section-->
+      <article>
+        <h1>My Skills.</h1>
+        <ul>
+          <li>
+            HTML <br />
+            <progress min="0" max="100" value="70"></progress>
+          </li>
+          <li>
+            CSS <br />
+            <progress min="0" max="100" value="30"></progress>
+          </li>
+          <li>
+            JS <br />
+            <progress min="0" max="100" value="50"></progress>
+          </li>
+          <li>
+            Python <br />
+            <progress min="0" max="100" value="80"></progress>
+          </li>
+          <li>C++ <br />
+            <progress min="0" max="100" value="90"></progress>            
+          </li>
+        </ul>
+      </article>
+
+      <!--"About Web Development" section-->
+      <article>
+        <table class="default" cellpadding="0">
+          <tr>
+            <th id="C1" scope="row">HTML</th>
+            <th id="C2">CSS</th>
+            <th id="C3">JavaScript</th>
+            <th id="C4">Python</th>
+            <th id="C5">C++</th>
+          </tr>
+          <tr>
+            <td>Hyper Text Markup Language</td>
+            <td>Cascading Style Sheets</td>
+            <td>A web programming language</td>
+            <td>A multi-purpose programming language</td>
+            <td>A famous software development language</td>
+          </tr>
+        </table>
+      </article>
+
+      <!--Media Section-->
+      <article>
+        <h1><span>My favourite Programming Music</span></h1>
+        <h3>Hola Beats | Seed Capital</h3>
+        <iframe
+          height="150"
+          width="150"
+          src="vid/SeedCapital.mp4"
+          allowfullscreen
+          frameborder="0"
+          class="video"
+        ></iframe>
+      </article>
+
+      <!--Form Section-->
+      <article>
+        <h1><span>Contact Me.</span></h1>
+        <form action="">
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Escriba su nombre..."
+          />
+          <br />
+          <label for="Apellido">Apellido</label>
+          <input
+            type="text"
+            name="Apellido"
+            id="Apellido"
+            placeholder="Escriba su apellido..."
+          />
+          <br />
+          <label for="Mail">Email</label>
+          <input
+            type="mail"
+            name="Mail"
+            id="Mail"
+            placeholder="nombre@ejemplo.com"
+          />
+          <br />
+          <textarea
+            cols="50"
+            rows="10"
+            name="Mensaje"
+            id="Mensaje"
+            placeholder="Ingrese su mensaje..."
+          ></textarea>
+          <br />
+          <button type="submit">Enviar</button>
+        </form>
+      </article>
+      <article>
+        <h1>Follow me at:</h1>
+        <a href="https://github.com/TommyEu"><img src="/img/GitHubLogo.png" alt="GitHub" width="50"></a>
+        <a href="https://facebook.com"><img src="/img/FacebookLogo.png" alt="Facebook" width="50"></a>
+        <a href="https://linkedin.com"><img src="/img/LinkedInLogo.jpg" alt="Linkedin" width="50"></a>
+      </article>
+    </section>
+    <footer>
+      <a href="#titulo">Ir al comienzo</a>
+      <a href="mailto:tomaslautaroeuliarte@gmail.com">Contactame aquí</a>
+      <p>Copyright 2021</p>
+    </footer>
+  </body>
+</html>

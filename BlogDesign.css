@@ -1,13 +1,63 @@
 html {
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  margin: 0;
+  background-color: #efefef;
+}
+header {
+  background-color: #364552;
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+
+}
+header h1 {
+  font-size: 4rem;
+  text-align: center;
 }
 
-p {
-  padding: 0;
-  margin: 0;
-  text-align: left;
+article h1 {
+  margin: 15px;
 }
+article h3 {
+  margin: 30px;
+}
+
+
+
+/*#relatedTitle {
+  color: white;
+  background-color: #4a6da7;
+  text-align: center;
+  font-size: large;
+  
+  
+  height: 50px;
+}*/
+
+/*#related {
+  border: black 5px solid;
+  border-style: double;
+  margin:auto;
+  padding: 5px 5px;
+  width: 25%;
+}*/
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+section article {
+  background-color: #ffff;
+  margin: 1rem 0;
+  padding: 0.25rem 0;
+  border-radius: 1rem;
+
+}
+
 .img-circle {
   border: 3px solid white;
   border-radius: 50%;
@@ -18,18 +68,17 @@ p {
   height: 40px;
   background-color: #4a6da7;
 }
-#intro {
-  font-family: NotoSans, Arial, "Arial Unicode MS", sans-serif;
-  font-size: large;
-  color: rgb(17, 17, 17);
-  width: 37px;
+
+section article:hover {
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.35%);
 }
-#AboutMe {
-  font-family: NotoSans, Arial, "Arial Unicode MS", sans-serif;
-  font-size: large;
-  color: rgb(17, 17, 17);
-  width: auto;
+
+section article h2, section article p {
+  margin: 1rem;
 }
+
+/*Cuadro Negro y Azul*/
+
 .default {
   width: 50%;
   border: black 5px solid;
@@ -51,4 +100,17 @@ p {
 }
 .default td {
   width: 50%;
+}
+.video {
+  margin: 0 30px;
+}
+
+footer {
+  background-color: #364552;
+  color: white;
+  padding: 3rem 2rem;
+}
+
+form {
+  padding: 15px; 
 }
