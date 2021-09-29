@@ -3,10 +3,12 @@ html {
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
+
 body {
   margin: 0;
   background-color: #efefef;
 }
+
 header {
   background-color: #364552;
   color: white;
@@ -14,6 +16,7 @@ header {
   text-align: center;
 
 }
+
 header h1 {
   font-size: 4rem;
   text-align: center;
@@ -22,46 +25,77 @@ header h1 {
 article h1 {
   margin: 15px;
 }
+
 article h3 {
   margin: 30px;
 }
 
-
-
-/*#relatedTitle {
-  color: white;
-  background-color: #4a6da7;
-  text-align: center;
-  font-size: large;
-  
-  
-  height: 50px;
-}*/
-
-/*#related {
-  border: black 5px solid;
-  border-style: double;
-  margin:auto;
-  padding: 5px 5px;
-  width: 25%;
-}*/
 .container {
-  width: 600px;
+  width: 650px;
   margin: 0 auto;
 }
 
 section article {
+  transition: -webkit-box-shadow 0.3s ease;
   background-color: #ffff;
   margin: 1rem 0;
   padding: 0.25rem 0;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
 
+section article:hover {
+ -webkit-box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+section article h2, section article p {
+  margin: 1rem;
+}
+
+aside {
+  margin-left: 50px;
+} 
+
+aside a {
+  transition: color 0.3s ease;
+  text-decoration: none;
+  color: #000;
+}
+
+aside a:hover {
+  color:cornflowerblue;
+}
+
+aside article:hover {
+  -webkit-box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+#relatedTitle {
+  color: white;
+  background-color: #292929;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: large;  
+  height: 50px;
+  margin: 0;
+  padding-top: 25px;
+}
+
+#related {
+  background-color: #ffff;
+  border-radius: 0.5rem;
+  border: black 0px solid;
+  float: right;
+  padding: 0;
+  width: 25%;
+  margin-top: 15px;
 }
 
 .img-circle {
   border: 3px solid white;
   border-radius: 50%;
 }
+
 #headder {
   color: #ffff;
   width: 120px;
@@ -69,15 +103,11 @@ section article {
   background-color: #4a6da7;
 }
 
-section article:hover {
-  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.35%);
-}
 
-section article h2, section article p {
-  margin: 1rem;
-}
 
-/*Cuadro Negro y Azul*/
+
+
+/*  Cuadro Negro y Azul */
 
 .default {
   width: 50%;
@@ -86,21 +116,25 @@ section article h2, section article p {
   margin: 9px;
   padding: 1px;
 }
+
 .default th {
   font-size: large;
   color: white;
   background-color: #292929;
   width: "50%";
 }
+
 .default tr {
   font-size: large;
   color: white;
   width: "50%";
   background-color: #4a6da7;
 }
+
 .default td {
   width: 50%;
 }
+
 .video {
   margin: 0 30px;
 }
@@ -113,4 +147,38 @@ footer {
 
 form {
   padding: 15px; 
+}
+
+#FollowMe {
+  margin: 0 15px;
+}
+
+#FollowMe a {
+  transition: -webkit-box-shadow 0.3s ease;
+  border-radius: 50%;
+}
+
+#FollowMe a:hover {
+  -webkit-box-shadow: 0.1rem 0.2rem 0.3rem rgba(0,0,0,0.3);
+  
+}
+
+footer section  {
+
+  float: right;
+}
+
+footer section a {
+  transition: color 0.3s ease;
+  color: #ffff;
+  text-decoration: none;
+}
+
+ footer section a:hover {
+   color: cornflowerblue;
+   
+ }
+
+footer p {
+  margin: 0;
 }
